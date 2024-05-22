@@ -1,0 +1,779 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+
+}
+
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.logo {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 34px;
+    margin: 0 54px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    column-gap: 75px;
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+
+
+}
+
+
+.icons {
+    display: flex;
+    align-items: center;
+    column-gap: 45px;
+    margin-right: 200px;
+}
+
+
+
+
+
+
+.shop {
+    background-image: url("/img/Rectangle\ 1.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 316px;
+    flex-shrink: 0;
+    padding-top: 121px;
+
+
+
+}
+
+
+.home {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+
+}
+
+.shop h1 {
+    font-size: 48px;
+    font-weight: 500;
+
+}
+
+
+
+.name {
+    text-align: center;
+
+
+}
+
+.shoptext {
+    position: relative;
+
+}
+
+
+
+
+.pink-block {
+    display: flex;
+    background-color: #F9F1E7;
+    max-width: 100%;
+    height: 100px;
+    flex-shrink: 0;
+    align-items: center;
+    
+    margin-bottom: 0;
+}
+
+.pp p{
+    font-size: 20px;
+}
+
+.pp{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    margin-top: 38px;
+    margin-left: 8%;
+    margin-right: 8%;
+    
+}
+
+.pb{
+    display: flex;
+    
+}
+
+.pb2{
+    display: flex;
+    gap: 29px;
+    
+    
+}
+
+.tb{
+    display: flex;
+    gap: 17px;
+    align-items: center;
+}
+
+.tb2{
+    display: flex;
+    gap: 17px;
+    align-items: center;
+}
+
+.pink-block p{
+    margin: 0;
+}
+
+.k1{
+    width:55px ;
+    height:55px ;
+    background-color:white;
+    border: none;
+    color:#9F9F9F;
+    font-size: 20px;
+}
+
+.k2{
+    width:188px ;
+    height:55px ;
+    background-color:white;
+    border: none;
+    color:#9F9F9F;
+    font-size: 20px;
+}
+
+
+
+.iconslogo{
+    display: flex;
+   margin-right: 23px;
+   align-items: center;
+   gap: 12px;
+}
+
+.icons2{
+    display: flex;
+    gap: 24px;
+    margin-right: 38px;
+    align-items: center;
+}
+
+.icons3{
+    display: flex;
+    gap: 34px;
+    align-items: center;
+}
+
+
+
+
+
+.cardtext {
+
+
+    margin: 0;
+    padding: 16px 0;
+    line-height: 1;
+
+
+}
+
+
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F5F7;
+    width: calc(25% - 24px)
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    margin: 32px 102px;
+    flex-wrap: wrap;
+
+}
+
+
+.cardtext h2,
+h3,
+p {
+    margin-left: 16px;
+    margin-top: 8px;
+}
+
+
+.cards{
+    margin-top: 63px;
+}
+
+.cards p {
+    color: #898989;
+
+}
+
+.cards h3,
+h2 {
+    color: #3A3A3A;
+
+}
+
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+    gap: 38px;
+    column-gap: 38px;
+    margin-top: 70px;
+    margin-bottom: 85px;
+}
+
+
+
+.btn1 {
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    background-color: #B88E2F;
+    width: 60px;
+    height: 60px;
+    border: none;
+}
+
+.btn2 {
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+    background-color: #F9F1E7;
+    width: 60px;
+    height: 60px;
+    border: none;
+}
+
+.btn3 {
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+    background-color: #F9F1E7;
+    width: 60px;
+    height: 60px;
+    border: none;
+}
+
+
+.btn4 {
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+    background-color: #F9F1E7;
+    width: 98px;
+    height: 60px;
+    border: none;
+}
+
+
+.pink-block2 {
+    display: flex;
+    background-color: #F9F1E7;
+    max-width: 100%;
+    height: 270px;
+    flex-shrink: 0;
+    justify-content: center;
+
+}
+
+.pinkk{
+    width: 1260px;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.pink-block2 img {
+    width: 60px;
+    height: 60px;
+}
+
+.icns{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+
+.icns p{
+    margin: 0;
+}
+
+.p{
+    color: #242424;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.pr{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    color: #898989;
+
+}
+
+
+
+
+
+
+.ft{
+    display: flex;
+    width: 1097px;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-bottom: 45px;
+    margin-top: 48px;
+}
+
+
+.furniro{
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.uni{
+    color: #9F9F9F;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+.text1 p{
+    width: 285px;
+}
+
+.enter{
+    display: flex;
+   gap: 11px;
+
+
+}
+
+.hr{
+    margin: 0;
+    
+}
+
+.infor{
+    display: flex;
+    justify-content: space-between;
+    width: 710px;
+}
+
+.g{
+    color: #9F9F9F;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 55px;
+    
+}
+
+.linkss{
+    width: 68px;
+}
+
+.Help{
+    width: 140px;
+}
+
+.pp{
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 46px;
+}
+
+.pp1{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.pp2{
+    margin: 0;
+    color: #9F9F9F;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.l2{
+    width: 1097px;
+}
+
+
+.end{
+    margin-left: 100px;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+
+.end p{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+
+
+@media screen and (max-width: 1500px) {
+    .nav {
+        column-gap: 60px;
+    
+    }
+   
+    .icns img{
+        width: 45px;
+        height: 45px;
+    }
+
+
+    .p{
+        font-size: 22px;
+    }
+    
+    .pr{
+        font-size: 17px;
+    }
+    
+    
+   .icons{
+    margin-right: 50px;
+   }
+    
+}
+
+/* @media screen and (max-width: 1290px){ 
+    .little-block-text p {
+        font-size: 14px;
+       
+    }
+
+    .k2{
+        width: 125px;
+        height: 55px;
+           }
+
+           .pink-block2{
+            height: 200px;
+           }
+
+}
+
+
+@media screen and (max-width: 1180px) {
+
+    .pink-block p{
+        font-size: 15px;
+    }
+    
+    }
+
+
+@media screen and (max-width: 1045px){
+   
+    .k1{
+      width: 45px;
+      height: 45px;
+    }
+    
+    .k2{
+        width: 100px;
+        height: 45px;
+    }
+
+
+    .pink-block p{
+        font-size: 13px;
+    }
+
+    .icns img{
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .p{
+        font-size: 19px;
+    }
+    
+    .pr{
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 998px) {
+    
+    .k2{
+        width: 115px;
+        height: 45px;
+    }
+
+    .card1 {
+        width: calc(50% - 25px);
+    
+    }
+
+    .cardtext{
+        padding-bottom: 0px;
+    }
+
+    .icns img{
+        width: 30px;
+        height: 30px;
+    }
+
+
+    .p{
+        font-size: 16px;
+    }
+    
+    .pr{
+        font-size: 12px;
+    }
+
+    .pink-block2{
+        height: 150px;
+       }
+
+           
+
+}
+
+@media screen and (max-width: 960px) {
+   .nav {
+    display: none;
+   }
+
+   .pb2{
+    display: none;
+   }
+
+   .card1 {
+    width: calc(50% - 25px);
+
+    
+}
+.cardtext{
+        padding-bottom: 0px;
+    }
+
+    .cards h3{
+        font-size: 20px;
+    }
+
+    .name{
+        width: 40%;
+        align-items: center;
+        margin-left: 30%;
+    }
+
+    .name p{
+        font-size: 15px;
+    }
+
+    .name h1{
+        font-size: 30px;
+    }
+
+    .btn {
+        gap: 12px;
+    }
+
+    .shop{
+        height: 250px;
+    }
+}
+
+
+@media screen and (max-width: 820px) {
+    .card1 {
+        width: calc(50% - 25px);
+    }
+
+    .btn1{
+        width: 40px;
+        height: 40px;
+    }
+    .btn2{
+        width: 40px;
+        height: 40px;
+    }
+    .btn3{
+        width: 40px;
+        height: 40px;
+    }
+    .btn4{
+        width: 55px;
+        height: 40px;
+    }
+
+    .btn button{
+        font-size: 15px;
+    }
+
+
+    .icns img{
+        width: 25px;
+        height: 25px;
+    }
+
+
+    .p{
+        font-size: 13px;
+    }
+    
+    .pr{
+        font-size: 10px;
+    }
+    
+    .logo{
+        margin-left: 30px;
+    }
+
+    .cards{
+        margin: 32px 70px;
+    }
+    
+}
+
+@media screen and (max-width: 620px){
+    .icons img{
+        width: 25px;
+        height: 25px;
+    }
+
+    .logo img{
+        width: 45px;
+        height: 29px;
+    }
+    .logo h4{
+    font-size: 30px;
+    }
+
+    .shop{
+        height: 200px;
+    }
+
+    .icons{
+        margin-right: 40px;
+       }
+
+       .cards{
+        margin: 32px 40px;
+    }
+      
+}
+
+
+@media screen and (max-width: 500px) {
+   .pink-block{
+    height: 50px;
+   }
+
+   .pink-block p{
+    font-size: 12px;
+   }
+
+   .pink-block img{
+    height: 15px;
+   }
+
+   .icons img{
+    width: 20px;
+    height: 20px;
+   }
+   
+   .logo img{
+    width: 40px;
+    height: 27px;
+}
+.logo h4{
+font-size: 22px;
+}
+
+.icons{
+    gap: 20px;
+}
+
+.logo{
+    margin-left: 20px;
+}
+
+
+.cardtext p{
+    font-size: 12px;
+}
+
+.cardtext h3{
+    font-size: 16px;
+}
+
+.cardtext h2{
+
+    font-size: 20px;
+}
+
+.cardtext{
+    padding-top: 0px;
+}
+}
+
+
+@media screen and (max-width: 415px){
+    .cardtext h3{
+        font-size: 11px;
+    }
+}
+
+
+
